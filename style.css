@@ -19,7 +19,7 @@ html {
   height: 100vh;
 }
 
-@media only screen and (max-width: 1440px) {
+
   body {
     height: 100%;
     background: url(./images/bg-pattern.svg) no-repeat;
@@ -279,4 +279,14 @@ html {
     background-color: var(--darkblue);
     color: var(--paleblue);
   }
-}
+
+  @media (max-width: 600px) {
+    main,
+    .price-box {
+      width: 80%;
+    }
+
+    .slide {
+      width: 300px;
+    }
+  }
